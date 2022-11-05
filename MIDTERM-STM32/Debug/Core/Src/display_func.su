@@ -1,0 +1,3 @@
+display_func.c:8:6:display7SEG	16	static
+display_func.c:105:6:clear7SEG	8	static
+display_func.c:115:6:clearLED	16	static
