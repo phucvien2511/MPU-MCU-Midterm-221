@@ -24,7 +24,6 @@ void setStatusByButton() {
 		status = INC;
 		counter++;
 		if (counter > 9) counter = 0;
-		HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin);
 
 	}
 	if (isButtonPressed(DEC_BUTTON) == 1) {
