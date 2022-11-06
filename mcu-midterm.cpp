@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
 string suffixList[8] = {"Kilo", "Mega", "Giga", "Tera", "Peta", "Exa", "Zetta", "Yotta"};
 string suffixWithUnit(double number){
     if (number < 1000) 
@@ -18,7 +19,7 @@ string suffixWithUnit(double number){
 
 int main(){
     double number;
-    std::cin >> number;
-    std::cout << suffixWithUnit(number);
+    cin >> number;
+    cout << suffixWithUnit(number);
     return 0;
 }
